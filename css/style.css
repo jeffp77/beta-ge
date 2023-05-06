@@ -1,0 +1,129 @@
+
+body {
+    background: black;
+    background-image: url(../img/login-background.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.login-background{
+
+}
+
+.logo-login{
+    width: 100px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 240px;
+
+}
+
+.tittle1-principal{
+    color: white;
+    text-align: center;
+    font-size: 18px;
+
+}
+
+#campo-email {
+    width: 325px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 25px;
+    border: 1.7px solid rgb(156, 2, 2);
+    background: #141414;
+    color: white;
+    text-align: center;
+    background-image: url(../img/icon-email.png);
+    background-repeat: no-repeat;
+    background-size: 15px;
+    background-position: 10px;
+}
+
+#campo-senha {
+    width: 325px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 25px;
+    border: 1.7px solid rgb(156, 2, 2);
+    background: #141414;
+    color: white;
+    background-position: 7px;
+    text-align: center;
+    background-image: url(../img/icon-senha.png);
+    background-repeat: no-repeat;
+    background-size: 15px;
+    background-position: 10px;
+    
+}
+
+.link-esqueceu-senha {
+    margin-left: 562px;
+    text-decoration: none;
+    color: #b00a02;
+    font-size: small;
+     
+}
+
+.link-esqueceu-senha:hover {
+    margin-left: 562px;
+    text-decoration: none;
+    color: red;
+    font-size: small;
+     
+}
+
+.link-nova-conta {
+    margin-left: 73px;
+    text-decoration: none;
+    color: #b00a02;
+    font-size: small;
+
+}
+
+.link-nova-conta:hover {
+    margin-left: 73px;
+    text-decoration: none;
+    color: red;
+    font-size: small;
+
+}
+
+a.botao-login {
+    background: #b00a02;
+    color: white;
+    text-decoration: none;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    border-radius: 25px;
+    text-align: center;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 140px;
+    margin-top: auto;
+   
+}
+
+a.botao-login:hover {
+    background: red;
+    color: white;
+    text-decoration: none;
+    padding-top: 18px;
+    padding-bottom: 18px;
+    border-radius: 25px;
+    text-align: center;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 150px;
+    margin-top: auto;
+}
